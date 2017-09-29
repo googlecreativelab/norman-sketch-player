@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NORMAN</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    #norman {
+      position: absolute !important;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="norman"></div>
+  <script src="norman-player.js"></script>
+  <script>
+    window.norman = new NormanPlayer(document.getElementById('norman'), {
+      sceneIds: {
+        'brumpled-tap-shanks': {
+          scale: 1.2,
+          url: 'https://normanvr.com/animations/brumpled-tap-shanks.json'
+        },
+        'clumbied-brine-hunguses': {
+          scale: 0.7,
+          url: 'https://normanvr.com/animations/clumbied-brine-hunguses.json'
+        },
+        'clumbied-frump-lumps': {
+          scale: 1,
+          url: 'https://normanvr.com/animations/clumbied-frump-lumps.json'
+        },
+        'brumpled-bung-hinges': {
+          scale: 0.7,
+          url: 'https://normanvr.com/animations/brumpled-bung-hinges.json'
+        },
+        'clumbied-frump-squeefs': {
+          scale: 0.8,
+          url: 'https://normanvr.com/animations/clumbied-frump-squeefs.json'
+        },
+        'fropley-clam-glops': {
+          scale: 0.6,
+          url: 'https://normanvr.com/animations/fropley-clam-glops.json'
+        },
+        'fropley-ront-shanks': {
+          scale: 0.6,
+          url: 'https://normanvr.com/animations/fropley-ront-shanks.json'
+        },
+        'gildered-plex-squeefs': {
+          scale: 0.7,
+          url: 'https://normanvr.com/animations/gildered-plex-squeefs.json'
+        },
+        'gildered-ront-flops': {
+          scale: 0.6,
+          url: 'https://normanvr.com/animations/gildered-ront-flops.json'
+        },
+        'gildered-shift-glops': {
+          scale: 1,
+          url: 'https://normanvr.com/animations/gildered-shift-glops.json'
+        },
+        'mulgy-limp-clamps': {
+          scale: 0.6,
+          url: 'https://normanvr.com/animations/mulgy-limp-clamps.json'
+        },
+        'mulgy-limp-donks': {
+          scale: 1,
+          url: 'https://normanvr.com/animations/mulgy-limp-donks.json'
+        },
+        'mulgy-prunt-clamps': {
+          scale: 1,
+          url: 'https://normanvr.com/animations/mulgy-prunt-clamps.json'
+        },
+        'mulgy-ront-hops': {
+          scale: 1,
+          url: 'https://normanvr.com/animations/mulgy-ront-hops.json'
+        },
+        'mulgy-tap-donks': {
+          scale: 2,
+          url: 'https://normanvr.com/animations/mulgy-tap-donks.json'
+        },
+        'shingled-ront-lumps': {
+          scale: 0.6,
+          url: 'https://normanvr.com/animations/shingled-ront-lumps.json'
+        },
+        'shingled-shift-clumps': {
+          scale: 2,
+          url: 'https://normanvr.com/animations/shingled-shift-clumps.json'
+        },
+        'troubling-shift-squeefs': {
+          scale: 0.6,
+          url: 'https://normanvr.com/animations/troubling-shift-squeefs.json'
+        },
+        'trulmy-clam-lumps': {
+          scale: 1,
+          url: 'https://normanvr.com/animations/trulmy-clam-lumps.json'
+        },
+        'trulmy-limp-donks': {
+          scale: 1,
+          url: 'https://normanvr.com/animations/trulmy-limp-donks.json'
+        }
+      }
+    })
+  </script>
+</body>
+</html>
