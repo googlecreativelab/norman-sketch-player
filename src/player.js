@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import 'webvr-polyfill'
-import * as THREE from 'THREE'
+import * as THREE from 'three'
 import work from 'webworkify'
 import TWEEN from '@tweenjs/tween.js'
 import {EnterVRButton} from 'webvr-ui'

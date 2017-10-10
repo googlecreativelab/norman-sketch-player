@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import * as THREE from 'THREE'
+import * as THREE from 'three'
 import work from 'webworkify'
 import vertexWorker from './vertex-worker'
 import {clamp, poolSize} from './utils'

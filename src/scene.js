@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import * as THREE from 'THREE'
+import * as THREE from 'three'
 import {clamp} from './utils'
 
 const materials = {}
