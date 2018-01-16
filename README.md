@@ -63,7 +63,7 @@ sceneIds: {
 }
 ```
 
-You can also forego Firebase and point the player directly at you animation
+You can also forego Firebase and point the player directly at your animation
 JSON files:
 
 ```javascript
